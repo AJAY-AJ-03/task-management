@@ -1,0 +1,75 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# Django
+
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# Static and media files
+
+staticfiles/
+media/
+
+# Testing / Coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE / Editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Python packaging
+
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Mypy
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+
+.ruff_cache/
+
+# Celery
+
+celerybeat-schedule
+
+# Local development
+
+*.sqlite3
+*.sqlite3-journal
